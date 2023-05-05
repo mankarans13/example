@@ -1,0 +1,17 @@
+<!DOCTYPE html> 
+<html> 
+<head> 
+<title> Java File Upload Servlet Example </title> 
+</head> 
+<body>
+
+  <form method="post" action="fileuploadservlet" enctype="multipart/form-data">
+     Employee ID<input type="text" name="id"/><br><br>
+     Select Self Image 
+    <input type="file" name="file" accept="image/png, image/jpeg"/><br><br>
+    Upload Resume
+    <input type="file" name="file2"  accept=".doc,.docx,.pdf,.xml,application/msword,application/vnd.openxmlformats-officedocument.wordprocessingml.document"/> <br><br>
+    <input type="submit" value="Upload" />
+  </form>
+</body>
+</html>
